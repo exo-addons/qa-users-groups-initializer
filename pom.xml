@@ -28,7 +28,7 @@
   </parent>
   <groupId>org.exoplatform.addons.qa</groupId>
   <artifactId>qa-users-groups-initializer</artifactId>
-  <version>1.0.x-SNAPSHOT</version>
+  <version>1.0.1</version>
   <packaging>pom</packaging>
   <name>eXo Add-on:: QA Users and Groups initializer</name>
   <description>QA Users and Groups initializer</description>
@@ -80,4 +80,8 @@
       </pluginRepositories>
     </profile>
   </profiles>
+
+  <scm>
+    <tag>1.0.1</tag>
+  </scm>
 </project>
