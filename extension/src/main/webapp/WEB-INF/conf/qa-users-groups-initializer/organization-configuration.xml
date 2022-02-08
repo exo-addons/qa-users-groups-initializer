@@ -24,6 +24,46 @@
           <name>configuration</name>
           <description>description</description>
           <object type="org.exoplatform.services.organization.OrganizationConfig">
+            <field name="group">
+              <collection type="java.util.ArrayList">
+                <value>
+                  <object type="org.exoplatform.services.organization.OrganizationConfig$Group">
+                    <field name="name">
+                      <string>employees</string>
+                    </field>
+                    <field name="parentId">
+                      <string>/organization</string>
+                    </field>
+                    <field name="description">
+                      <string>the /organization/employees group</string>
+                      </field>
+                    <field name="label">
+                      <string>Employees</string>
+                    </field>
+                  </object>
+                </value>
+              </collection>
+            </field>
+            <field name="group">
+              <collection type="java.util.ArrayList">
+                <value>
+                  <object type="org.exoplatform.services.organization.OrganizationConfig$Group">
+                    <field name="name">
+                      <string>developers</string>
+                    </field>
+                    <field name="parentId">
+                      <string>/organization</string>
+                    </field>
+                    <field name="description">
+                      <string>the /organization/developers group</string>
+                      </field>
+                    <field name="label">
+                      <string>Developers</string>
+                    </field>
+                  </object>
+                </value>
+              </collection>
+            </field>
             <field name="user">
               <collection type="java.util.ArrayList">
                 <value>
