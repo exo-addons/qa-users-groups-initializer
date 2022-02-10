@@ -64,7 +64,7 @@
                       <string>john.smith@exoplatform.com</string>
                     </field>
                     <field name="groups">
-                      <string>*:/platform/administrators,*:/platform/users,*:/platform/web-contributors,manager:/organization/employees,manager:/organization/management/executive-board,member:/platform/users,member:/developers</string>
+                      <string>*:/platform/administrators,*:/platform/users,manager:/organization/employees,member:/platform/users,member:/organization/developers</string>
                     </field>
                   </object>
                 </value>
@@ -86,7 +86,7 @@
                       <string>mary.williams@exoplatform.com</string>
                     </field>
                     <field name="groups">
-                      <string>manager:/platform/web-contributors,editor:/platform/web-contributors,publisher:/platform/web-contributors,member:/platform/users,member:/organization/employees</string>
+                      <string>member:/platform/users,member:/organization/employees</string>
                     </field>
                   </object>
                 </value>
@@ -108,7 +108,7 @@
                       <string>james.david@exoplatform.com</string>
                     </field>
                     <field name="groups">
-                      <string>member:/platform/users,member:/organization/employees,author:/platform/web-contributors,redactor:/platform/web-contributors</string>
+                      <string>member:/platform/users,member:/organization/employees</string>
                     </field>
                   </object>
                 </value>
@@ -130,7 +130,7 @@
                       <string>jack.miller@exoplatform.com</string>
                     </field>
                     <field name="groups">
-                      <string>member:/platform/users,member:/organization/employees,member:/developers</string>
+                      <string>member:/platform/users,member:/organization/employees,member:/organization/developers</string>
                     </field>
                   </object>
                 </value>
