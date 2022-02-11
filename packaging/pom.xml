@@ -24,7 +24,7 @@
   <parent>
     <artifactId>qa-users-groups-initializer</artifactId>
     <groupId>org.exoplatform.addons.qa</groupId>
-    <version>1.0.x-SNAPSHOT</version>
+    <version>1.0.2</version>
   </parent>
   <artifactId>qa-users-groups-initializer-packaging</artifactId>
   <packaging>pom</packaging>
